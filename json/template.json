@@ -1,0 +1,50 @@
+{
+    "worldname": "Untitled",
+    "worldDescription": null,
+    "worldTimeHasCreated": "d/m/y",
+    "worldCollab": ["jk", "another people"],
+    "workspace": {
+        "setting": {
+            "langtype": "lua",
+            "cubzh_version": "v.X.X",
+            "debug": false,
+            "experiance_mode": false,
+            "page": ["lua", "game", "clientonstart"],
+            "current_navigate": ["3D scene"],
+            "auto-save": true
+        },
+        "resources": {
+            "folder": ["Untitled", "whatis this"],
+            "string": {
+                "boolean": {
+                    "name": "test",
+                    "type": "boolean",
+                    "parent": "Untitled"
+                }
+            },
+            "file": [
+                {
+                    "name": "lua",
+                    "type": "Script",
+                    "parent": "Client.OnStart",
+                    "priority": "900",
+                    "code": "print(\"helloworld\")"
+                },
+                {
+                    "name": "game",
+                    "type": "FirstReplicateScript",
+                    "parent": "Client.OnStart",
+                    "priority": "0",
+                    "code": "local a = 10"
+                },
+                {
+                    "name": "clientonstart",
+                    "type": "ModuleScript",
+                    "parent": "Untitled",
+                    "priority": "100",
+                    "code": "local module = {}"
+                }
+            ]
+        }
+    }
+}
