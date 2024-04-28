@@ -1,29 +1,4 @@
-            - name: Lua Action
+ - name: Lua Action
   # You may pin to the exact commit or the version.
   # uses: MilesChou/lua-action@29d9d758438e3c8856f521d4e3ae7b012893cde0
   uses: MilesChou/lua-action@v0.0.1
-
-  - name: setup-lua
-  # You may pin to the exact commit or the version.
-  # uses: ljmf00/setup-lua@3124df8c2dd6d93d88439bb3bf1211d5d9a0420e
-  uses: ljmf00/setup-lua@v.1.0.1
-  with:
-    # version of Lua to setup
-    lua-version: # optional, default is 5.3.5
-    # whether to install luarocks or not
-    install-luarocks: # optional, default is false
-    # version of LuaRocks to setup
-    luarocks-version: # optional, default is 3.8.0
-    # the target platform (e.g. -A Win32 | x64)
-    platform: # optional
-
-  - name: Setup Lua/LuaJIT
-  # You may pin to the exact commit or the version.
-  # uses: xpol/setup-lua@84f642e19a1adbad98b74f9e69ab82d1e6b95e3e
-  uses: xpol/setup-lua@v0.3
-  with:
-    # The version of Lua to install. Supported versions: Lua >= 5.1.0, LuaJIT >= 2.0.0
-    lua-version: # optional, default is 5.3.5
-    # Optional: The target platform (e.g. -A Win32 | x64).
-    platform: # optional
-          
