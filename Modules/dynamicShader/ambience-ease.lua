@@ -1,5 +1,6 @@
 -- self: The table of ambiences to ease (must not be nil)
 -- self: The table of ambiences to ease (must be a table)
+-- well this is just a mess
 local ambience_ease = {}
 local ambience = require("ambience")
 local regularcycle = {
