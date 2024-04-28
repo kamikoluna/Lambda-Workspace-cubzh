@@ -1,4 +1,2 @@
  - name: Lua Action
-  # You may pin to the exact commit or the version.
-  # uses: MilesChou/lua-action@29d9d758438e3c8856f521d4e3ae7b012893cde0
   uses: MilesChou/lua-action@v0.0.1
